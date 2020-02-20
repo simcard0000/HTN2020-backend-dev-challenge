@@ -11,7 +11,7 @@ This is my submission! As this was my first time using SQL, SQL-related librarie
 - To add an attendee to an event: `PUT localhost:5000/events/3/attendees`, where the number is the event_id and sent with a payload as defined in the problem statement
 
 ### Improvements
-- Noticed in the JSON file given with the user profiles there a lot of the emails that did not match up with names. I ended up just putting the JSON as is into the "Users" table, but fixing this would be the first thing I would do.
+- Noticed in the JSON file given with the user profiles there a lot of emails that did not match up with names. I ended up just putting the JSON as is into the "Users" table, but fixing this would be the first thing I would do.
 - As I make use of two tables (Users and Events), implementing foreign keys would make adding and removing people more easier.
 - Looking back, using SQLAlchemy was probably a bit too intense for this challenge (being an object-relational mapper), and I could have definetely made the database with just SQLite3, allowing me to use SQL commands instead of the functions SQLAlchemy provided (which do correspond back to SQL)
 
