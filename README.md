@@ -1,6 +1,6 @@
 # HTN2020-backend-dev-challenge
 
-This is my submission! As this was my first time using SQL, SQL-related libraries, and Flask, there was a large learning curve - and so to help me complete this challenge, I referred to flask-sqlalchemy documentation from [here](https://flask-sqlalchemy.palletsprojects.com/en/2.x/queries/) and [here](https://docs.sqlalchemy.org/en/13/index.html), as well as a few Stack Overflow questions such as [this](https://stackoverflow.com/questions/1378325/python-dicts-in-sqlalchemy) while I debugged.
+This is my submission! As this was my first time using SQL, SQL-related libraries, and Flask, there was a large learning curve - and so to help me complete this challenge, I referred to flask-sqlalchemy documentation from [here](https://flask-sqlalchemy.palletsprojects.com/en/2.x/queries/) and [here](https://docs.sqlalchemy.org/en/13/index.html), as well as a few Stack Overflow questions/tutorials such as [this](https://stackoverflow.com/questions/1378325/python-dicts-in-sqlalchemy) and [this](https://medium.com/python-pandemonium/build-simple-restful-api-with-python-and-flask-part-2-724ebf04d12) while I debugged.
 
 ### Queries
 - To get information on all users: `GET localhost:5000/users`
